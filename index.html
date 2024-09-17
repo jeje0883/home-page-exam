@@ -3,283 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page Exam</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,600;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Storey - Vibrant E-Commerce Experience</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
 </head>
-<body class="">
-    <nav class="navbar navbar-expand-lg bg-light sticky-top">
-        <div class="container d-flex flex-wrap ">
-            <ul class="nav me-auto">
-              <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active " aria-current="page">Home</a></li>
-              <li class="nav-item"><a href="#our-fleet" class="nav-link link-body-emphasis px-2 ">Our Fleet</a></li>
-              <li class="nav-item"><a href="#the-experience" class="nav-link link-body-emphasis px-2 ">The Experience</a></li>
- 
-              <li class="nav-item"><a href="#about-us" class="nav-link link-body-emphasis px-2 ">About</a></li>
-              <li class="nav-item"><a href="#contact-us" class="nav-link link-body-emphasis px-2 ">Contact</a></li>
-            </ul>
-            <ul class="nav">
-              <!-- <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 ">Login</a></li>
-              <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 ">Sign up</a></li> -->
-            </ul>
-          </div>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Storey</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-      <section class="section">
-        <div class="bg-dark text-secondary px-4 py-5 text-center">
-            <div class="py-5">
-              <h1 class="display-5 fw-bold text-white">Soar Through History: Relive the WWII Flight Experience!</h1>
-              <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Feel the power and elegance of classic aircraft as you embark on a journey back in time.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a href="#our-fleet">
-                        <button type="button" class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold">Explore Our Aircraft</button>
-                    </a>
-                    <a href="#contact-us">
-                        <button type="button" class="btn btn-outline-light btn-lg px-4">Contact Us</button>
-                    </a>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section id="our-fleet">
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://images.squarespace-cdn.com/content/v1/55f810a5e4b0e5bde7f7a7d4/4164e245-ba84-4247-bbdc-6637bd52f03e/AircraftRestorationCo_AerialCollective-Duxford-Supermarine-Spitfire-TIX-PV202-JW-Experience-Flights_copyrightGeorgeLewisRomain.jpg?format=2500w" class="d-block w-100 h-100" style="object-fit: cover;"   alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Supermarine Spitfire</h5>
-                  <p>The Supermarine Spitfire is perhaps the most iconic fighter aircraft of World War II. Known for its sleek, elliptical wings and remarkable agility, the Spitfire was a critical part of the Allied air forces. It dominated the skies during the Battle of Britain, defending against enemy fighters with unmatched speed and precision.
-
-                    History: Introduced in the late 1960s, the Spitfire quickly earned a reputation for its superior performance. It was designed by R.J. Mitchell and continually evolved throughout the war, with various marks that improved its speed, firepower, and operational capabilities.
-                    Specifications:
-                    Max Speed: 370 mph
-                    Range: 1,135 miles
-                    Armament: 8 Browning .603 machine guns or 2 Hispano 20mm cannons (depending on the model)
-                    Experience the Thrill: Strap into the cockpit of this agile fighter and experience what it felt like for the brave pilots who soared through the skies during some of history’s most pivotal battles.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://uklandpower.com/wp-content/uploads/2019/09/boeing-b-17g-flying-fortress.jpg" class="d-block w-100 h-100" style="object-fit: cover;"  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Boeing B-17 Flying Fortress</h5>
-                  <p>The Boeing B-17 Flying Fortress is a heavy bomber known for its rugged construction and ability to withstand heavy enemy fire. With its four powerful engines and formidable defensive armament, the B-17 became a symbol of the relentless Allied bombing campaigns over Europe.
-
-                    History: First flown in 1935, the B-17 was crucial in strategic bombing missions against industrial and military targets. Its durability and capability to bring crews back safely, even when severely damaged, earned it the nickname "Flying Fortress."
-                    Specifications:
-                    Max Speed: 287 mph
-                    Range: 2,000 miles
-                    Armament: Up to 13 .50 caliber machine guns, 8,000 lbs of bombs
-                    Experience the Thrill: Step aboard this legendary bomber and experience the camaraderie of the crew as you take a journey back in time. Feel the roar of its engines and imagine the courage required to fly into the heart of enemy territory.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://uklandpower.com/wp-content/uploads/2019/09/republic-p-47-thunderbolt.jpg" class="d-block w-100 h-100"  style="object-fit: cover;"  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Republic P-47 Thunderbolt</h5>
-                  <p>The Republic P-47 Thunderbolt, affectionately known as the "Jug," was one of the heaviest and most powerful fighter aircraft of World War II. With its rugged design, formidable firepower, and unmatched durability, the P-47 became a dominant force in both air-to-air combat and ground-attack missions. Its robust frame, combined with a fearsome radial engine, made it a juggernaut in the skies and a savior for many pilots.
-
-                    History: First introduced in 1942, the P-47 quickly gained a reputation for its toughness and versatility. Designed as a high-altitude escort fighter, the Thunderbolt soon proved its effectiveness in a variety of roles, including bomber escort, close air support, and ground attack. Its rugged airframe, heavily armed with eight .50 caliber machine guns, could endure intense combat conditions, returning home with remarkable resilience even after sustaining heavy damage. The P-47 played a pivotal role on the European and Pacific fronts, earning the respect and admiration of both Allied and enemy pilots.
-                    
-                    Specifications:
-                    
-                    Max Speed: 433 mph
-                    Range: 1,800 miles with external fuel tanks
-                    Armament: 8 × .50 caliber M2 Browning machine guns, with the capacity to carry bombs, rockets, and drop tanks for extended missions
-                    Notable Features: Powerful Pratt & Whitney R-2800 Double Wasp radial engine, exceptional survivability, and immense ground-attack capability.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://images.squarespace-cdn.com/content/v1/55f810a5e4b0e5bde7f7a7d4/d4deaa89-7b81-4d26-9a02-374f42e7a6bc/AircraftRestorationCompany_NAA-P51-Mustang-MissHelen-Flight-above-Duxford-clouds_copyrightGeorgeLewisRomain.jpg?format=2500w" class="d-block w-100 h-100"  style="object-fit: cover;"  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>North American P-51 Mustang – The Legend of the Skiesl</h5>
-                  <p>The North American P-51 Mustang stands as one of the most iconic and celebrated fighter aircraft of World War II. Known for its unmatched speed, agility, and sleek design, the Mustang not only dominated the skies in combat but also changed the course of aerial warfare. With its long-range capabilities and exceptional performance, the P-51 earned its place as a true legend of aviation history.
-
-                    History: Introduced in 1942, the P-51 Mustang quickly became a game-changer for the Allied forces. Designed with a powerful Rolls-Royce Merlin engine, the Mustang was capable of long-range escort missions, allowing bombers to penetrate deep into enemy territory and return safely. Its arrival on the battlefield shifted the balance of power in the skies, making it an indispensable asset in both the European and Pacific theaters. The Mustang was not just a plane; it was a symbol of hope, determination, and technological prowess during one of history's most challenging times.
-                    
-                    Specifications:
-                    
-                    Max Speed: 437 mph
-                    Range: 1,650 miles with external fuel tanks
-                    Armament: 6 × .50 caliber M2 Browning machine guns, with options for rockets or bombs
-                    Notable Features: Bubble canopy for improved visibility, streamlined airframe for superior speed, and incredible maneuverability at high altitudes.</p>
-                </div>
-              </div>
-  =
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </section>
-
-
-
-
-      <section id="the-experience" class="the-experience container my-5"> 
-        <h2 class="text-center my-5 py-5">The Experience - A Vintage Flight Like No Other:</h3>
-        <div class="row align-items-center">
-            <!-- Left Column for the Image -->
-            <div class="col-md-6 order-2 order-md-1">
-                <img src="https://media.gettyimages.com/id/125144630/photo/spitfire-pilots.jpg?s=2048x2048&w=gi&k=20&c=Eq3xiDI7AMq04sVSfgE39Nt43LpoGlxB_tIWFwtr44s=" alt="Vintage Aircraft" class="img-fluid">
-            </div>
-            
-            <!-- Right Column for the Text -->
-            <div class="col-md-6 order-1 order-md-2">
-                <h2>Feel the Power of Classic Aviation</h2>
-                <p>
-                    From the moment you step onto the airfield, you’ll be transported to an era where aircraft roared through the skies with unmatched might and grace. Our meticulously restored fleet of World War II planes stands ready, each with its own story etched into the fabric of history. As you approach the aircraft, you'll hear the engine's growl, feel the vibration of the propellers, and catch the scent of aviation fuel in the air – a sensory journey that’s sure to stir your excitement.
-                </p>
-            </div>
-        </div>
-
-        <div class="row align-items-center">
-            <!-- Right Column for the Text -->
-            <div class="col-md-6">
-                <h2>The Vintage Flight Experience: Soar Through Time</h2>
-                <p>
-                    Prepare for an adventure unlike any other as you step back in time and take to the skies in an authentic World War II aircraft. Our vintage flight experience isn’t just a ride; it’s a journey through history that lets you feel the thrill, power, and freedom of flying in a legendary plane from aviation's golden era.
-                </p>
-              
-            </div>
-            <!-- Left Column for the Image -->
-            <div class="col-md-6">
-                <img src="https://media.gettyimages.com/id/1421868776/photo/spitfire-pilot-standing-next-to-his-aircraft.jpg?s=2048x2048&w=gi&k=20&c=0CmBRCUUrghHjEtMKi8H3Y18NxnvoF5iGtunmzvmM_o=" alt="Vintage Aircraft" class="img-fluid">
-            </div>
-            
-
-        </div>
-        
-        <div class="row align-items-center">
-            <!-- Left Column for the Image -->
-            <div class="col-md-6 order-2 order-md-1">
-                <img src="https://media.gettyimages.com/id/140189709/photo/angelholm-sweden-north-american-p-51-cavalier-mustang-with-supermarine-spitfire-mk-xviii-and.jpg?s=2048x2048&w=gi&k=20&c=V5NS311ZQsc_TgHjjafMA_frd5CeC2wzeXUuVyzSdNg=" alt="Vintage Aircraft" class="img-fluid">
-            </div>
-            
-            <!-- Right Column for the Text -->
-            <div class="col-md-6 order-1 order-md-2">
-                <h2>Strap In for a Real Piloting Experience</h2>
-                <p>
-                    Climb into the cockpit or passenger seat of these legendary planes and get ready to experience flight like never before. Our expert pilots, clad in vintage flight gear, will guide you through the pre-flight checks, sharing stories and insights about the aircraft’s history and unique features. Whether you’re sitting beside the pilot in a Spitfire fighter or inside the spacious belly of a C-47 transport plane, you’ll feel the authenticity and thrill of every moment.
-                </p>
-            </div>
-        </div>
-        
-        <div class="row align-items-center">
-
-            
-            <!-- Right Column for the Text -->
-            <div class="col-md-6">
-                <h2>The Vintage Flight Experience: Soar Through Time</h2>
-                <p>
-                    Prepare for an adventure unlike any other as you step back in time and take to the skies in an authentic World War II aircraft. Our vintage flight experience isn’t just a ride; it’s a journey through history that lets you feel the thrill, power, and freedom of flying in a legendary plane from aviation's golden era.
-                </p>
-    
-            </div>
-                        <!-- Left Column for the Image -->
-            <div class="col-md-6">
-                <img src="https://media.gettyimages.com/id/1421868867/photo/cockpit-of-supermarine-spitfire-vintage-aircraft.jpg?s=2048x2048&w=gi&k=20&c=jUHSXRrb6CNFf0IbJn1CaHmNobIepO-nyUg1hYM7p7E=" alt="Vintage Aircraft" class="img-fluid">
-            </div>
-        </div>
-        
-        
-    </section>
-    
-    <section id="about-us" class="about-us container my-5">
-        <h2 class="text-center my-5 pt-5">About Us - Keeping History Alive</h3>
-
-        <div class="my-5">
-            <h3></h3>
-            <p>At Vintage Fly, we are more than just an aviation experience; we are a gateway to history, adventure, and the golden age of flight. Our passion for vintage aircraft and the stories they carry is at the heart of everything we do. With our meticulously restored World War II planes and expertly crafted experiences, we offer you a chance to relive the glory days of aviation in the most thrilling and authentic way possible.</p>
-        </div>
-
-        <div class="d-md-flex my-5">
-            <div class="mb-3 mb-md-0 me-md-3">
-                <h4>Our Story</h4>
-                <p>
-                    Our journey began with a simple dream: to preserve the legacy of World War II aircraft and share the magic of flying these legendary machines. Founded by a group of aviation enthusiasts, historians, and pilots, Vintage Fly was born out of a deep appreciation for the remarkable feats of engineering and bravery that defined the era. Each of us is dedicated to bringing history to life, allowing you to experience firsthand what it was like to soar through the skies in these iconic planes.
-    
-                    Over the years, we have carefully built a collection of some of the most famous aircraft of World War II, including the mighty P-51 Mustang, the rugged P-47 Thunderbolt, and the graceful Spitfire. Our team has painstakingly restored these aircraft to their former glory, ensuring that every detail – from the roar of the engines to the feel of the cockpit – is as true to the original as possible. Our mission is to create unforgettable experiences that honor the past while inspiring a sense of adventure and wonder in every guest.
-                </p>
-            </div>
-    
-            <!-- Second Column: Our Fleet and Restoration Process -->
-            <div class="ms-md-3">
-                <h4>Our Fleet and Restoration Process</h4>
-                <p>
-                    We take immense pride in our fleet of vintage World War II aircraft. Each plane in our collection is a masterpiece of aviation history, lovingly restored and maintained by our team of experts. The restoration process is a labor of love that involves sourcing original parts, adhering to historical blueprints, and working with skilled craftsmen to ensure authenticity. Every aircraft in our collection is airworthy and equipped to deliver an exhilarating flight experience that is safe, thrilling, and deeply immersive.
-                </p>
-            </div>
-        </div>
-
-        <div class="my-5">
-            <h3>What We Offer</h3>
-            <ul>
-                <li>
-                    <strong>Vintage Flight Experiences:</strong> Step into the cockpit of a legendary World War II aircraft and experience the thrill of flight like never before. Whether you seek a serene cruise over scenic landscapes or the adrenaline rush of aerial maneuvers, we have a range of flight experiences tailored to your preferences.
-                </li>
-                <li>
-                    <strong>Historical Insights:</strong> Our team is passionate about sharing the stories behind each aircraft. During your flight and tour, you’ll learn about the incredible feats, daring pilots, and the rich history that these planes represent.
-                </li>
-                <li>
-                    <strong>Private Events and Group Flights:</strong> Looking for a unique way to celebrate a special occasion? We offer private events and group flight packages that make for unforgettable moments, whether it’s a birthday, anniversary, or corporate outing.
-                </li>
-            </ul>
-            
-
-        </div>
-
-
-
-      </section>
-
-      
-      <section id="contact-us" class="contact-us container my-5 text-center"> 
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
-            <input type="submit" value="Submit">
-        </form>
-        <div class="social-icons my-4">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-512.png" alt="Facebook">
-            </a>
-            <a href="https://www.youtube.com/" target="_blank">
-                <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-512.png" alt="YouTube">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png" alt="Instagram">
-            </a>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Storey</h1>
+            <p>Your vibrant one-stop destination for all your needs.</p>
+            <a href="#products" class="btn btn-primary">Shop Now</a>
         </div>
     </section>
 
-
-
-    <footer>
+    <!-- Carousel Section -->
+    <section id="carousel" class="mt-5">
         <div class="container">
-            <p>&copy; 2024 Vintage Fly - All Rights Reserved </p>
+            <div id="featuredProducts" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#featuredProducts" data-bs-slide-to="0" class="active" 
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#featuredProducts" data-bs-slide-to="1" 
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#featuredProducts" data-bs-slide-to="2" 
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://media.gettyimages.com/id/748337145/photo/friends-running-and-laughing-with-holiday-accessories-under-their-arms.jpg?s=2048x2048&w=gi&k=20&c=-qAvh4fohsscVLDatUUnCWshuAwGaoRH8BJHRgKu7Bk=" 
+                            class="d-block w-100" alt="Featured Product 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Summer Collection</h5>
+                            <p>Explore our latest summer arrivals.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.gettyimages.com/id/1266049564/photo/group-of-young-people-having-fun-with-snow-balls-fight.jpg?s=2048x2048&w=gi&k=20&c=WSlCl3pz4DzpYirBE-WMoMWhRxYiGzV7s4l8ycFtW-Y=" 
+                            class="d-block w-100" alt="Featured Product 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Winter Specials</h5>
+                            <p>Stay warm with our winter deals.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.gettyimages.com/id/494420408/photo/happy-woman-in-shopping.jpg?s=2048x2048&w=gi&k=20&c=xj2vpMsCxy4vkRgzZF6jLTjoYHNj7VARbo3FCZko0bI=" 
+                            class="d-block w-100" alt="Featured Product 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Exclusive Offers</h5>
+                            <p>Don't miss out on our exclusive offers.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#featuredProducts" 
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#featuredProducts" 
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="product-section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="row">
+                <!-- Product Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.gettyimages.com/id/1930262216/photo/noise-cancelling-earmuffs-isolated-on-white.jpg?s=2048x2048&w=gi&k=20&c=uQkmrrlTZ-DfCRlmlK3Jl7cusJ1p-eZw5OxJlpoec58=" 
+                            class="card-img-top" alt="Stylish Headphones">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Stylish Headphones</h5>
+                            <p class="card-text">Experience immersive sound with our latest headphones.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-buy"><i class="fas fa-shopping-cart me-2"></i>Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.gettyimages.com/id/483531708/photo/close-up-shot-of-black-apple-watch-sport.jpg?s=2048x2048&w=gi&k=20&c=M6E0rjgZm97h8fBn2xUBo3CqgpwPwBwLuWRDa7bJVSs=" 
+                            class="card-img-top" alt="Modern Watch">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Modern Watch</h5>
+                            <p class="card-text">Keep track of time with elegance and precision.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-buy"><i class="fas fa-shopping-cart me-2"></i>Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.gettyimages.com/id/1179971283/photo/grey-suede-sneakers-shoes-on-white-background.jpg?s=2048x2048&w=gi&k=20&c=DDwPF9WaYgZEqgaMgviw7YkNG6YOZqJcmZ3UI0nmtDo=" 
+                            class="card-img-top" alt="Comfortable Sneakers">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Comfortable Sneakers</h5>
+                            <p class="card-text">Step out in style with our range of sneakers.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-buy"><i class="fas fa-shopping-cart me-2"></i>Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.gettyimages.com/id/955768194/photo/brown-wooden-sound-speaker-isolated-on-white-background.jpg?s=2048x2048&w=gi&k=20&c=7_i5yQZJk5cZQ2NezeDKPEZ_9p7nrTVwoqOFHToXqYo=" 
+                            class="card-img-top" alt="Wireless Speaker">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Wireless Speaker</h5>
+                            <p class="card-text">Enjoy high-quality sound anywhere you go.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-buy"><i class="fas fa-shopping-cart me-2"></i>Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.gettyimages.com/id/1142678266/photo/new-smartphone-with-packaging-and-accessories.jpg?s=2048x2048&w=gi&k=20&c=e0GuNWoMWBCin5ZUo4lfU6oUgSizBEAbRcoCUuRB944=" 
+                            class="card-img-top" alt="Smartphone">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Smartphone</h5>
+                            <p class="card-text">Stay connected with the latest smartphone technology.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-buy"><i class="fas fa-shopping-cart me-2"></i>Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.gettyimages.com/id/1399080692/photo/genuine-leather-black-color-backpack-stylish-womens-bag.jpg?s=2048x2048&w=gi&k=20&c=RjztHLBHLx1Hccwz56kpvf5ydR2qAWB8zDCLmoSzWaM=" 
+                            class="card-img-top" alt="Backpack">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Stylish Backpack</h5>
+                            <p class="card-text">Carry your essentials in style with our durable backpacks.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-buy"><i class="fas fa-shopping-cart me-2"></i>Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more product cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="row">
+                <!-- Testimonial 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <p>"Storey offers the best products at unbeatable prices. I'm always satisfied with my purchases!"</p>
+                        <h5>- Jane Doe</h5>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <p>"The customer service is exceptional. They helped me find exactly what I needed."</p>
+                        <h5>- John Smith</h5>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <p>"Fast shipping and high-quality products. I highly recommend Storey to everyone."</p>
+                        <h5>- Emily Johnson</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Column -->
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="https://media.gettyimages.com/id/1467976868/photo/the-convenience-of-shopping-online.jpg?s=2048x2048&w=gi&k=20&c=IuTc92L3m3_FjiQxlKKIyxWk3ukm9FYfFz9jyhn2W7Q=" 
+                    alt="About Us" class="img-fluid rounded shadow-lg">
+            </div>
+            <!-- Text Column -->
+            <div class="col-md-6">
+                <h2>About Storey</h2>
+                <p>
+                    At Storey, we are committed to providing our customers with the best products and exceptional service. Our mission is to make online shopping a seamless and enjoyable experience for everyone.
+                </p>
+                <p>
+                    Founded in 2024, Storey has rapidly grown into a trusted name in the e-commerce industry, offering a wide range of products to cater to all your needs. From electronics and fashion to home essentials and more, we have something for everyone.
+                </p>
+                <a href="#products" class="btn btn-primary"><i class="fas fa-store me-2"></i>Explore Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center mb-4">Get in Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane me-2"></i>Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!-- Company Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Storey</h5>
+                    <p>Your vibrant one-stop shop for all your needs. Quality products, exceptional service.</p>
+                    <div class="d-flex">
+                        <a href="https://www.facebook.com/yourpage" class="me-3" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com/yourprofile" class="me-3" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yourprofile" class="me-3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-envelope me-2"></i>support@Storey.com</p>
+                    <p><i class="fas fa-phone-alt me-2"></i>+1 (234) 567-8901</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>1234 Market Street, City, Country</p>
+                </div>
+            </div>
+            <hr class="border-top border-secondary">
+            <div class="text-center">
+                <p>&copy; 2024 Storey. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS and dependencies (Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <!-- Optional: Add your own JS here -->
 </body>
+</html>
