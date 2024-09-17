@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.nav {
+    font-size: larger;
+    font-weight: 400;
+}
+
+img {
+    width: 100%; /* Make the image fill the width of its container */
+    height:500px; /* Set a fixed height */
+    object-fit: cover; /* Crops the image to fill the container */
+}
+
+/* Carousel Text Background */
+.carousel-caption {
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* Contact Us Form */
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-us input, .contact-us textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-us input[type="submit"] {
+    background-color: #4f5255;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
